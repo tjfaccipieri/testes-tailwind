@@ -1,11 +1,11 @@
 function Navbar() {
   return (
-    <div className="navbar bg-base-100 uppercase container mx-auto">
+    <div className="container navbar mx-auto bg-base-100 uppercase">
       <div className="flex-1">
         <a className="btn btn-ghost text-xl">tjfaccipieri</a>
       </div>
       <div className="flex-none">
-        <ul className="menu menu-horizontal px-1 flex items-center">
+        <ul className="menu menu-horizontal flex items-center px-1">
           <label className="flex cursor-pointer gap-2">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -22,8 +22,8 @@ function Navbar() {
             </svg>
             <input
               type="checkbox"
-              value="light"
-              className="toggle theme-controller"
+              value="cyberpunk"
+              className="theme-controller toggle"
             />
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -43,7 +43,7 @@ function Navbar() {
           <li>
             <details>
               <summary>Páginas de teste</summary>
-              <ul className="p-2 bg-base-100 rounded">
+              <ul className="rounded bg-base-100 p-2">
                 <li>
                   <a>Login Page</a>
                 </li>
